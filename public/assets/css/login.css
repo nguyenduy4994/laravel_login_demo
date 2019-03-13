@@ -1,0 +1,79 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family:'Arial';
+	font-size:12px;
+}
+.form_login{
+	width:330px;	
+	overflow:hidden;
+	margin:auto;
+	margin-top:150px;
+	padding-top:20px;
+}
+.form_login legend{
+	text-transform:uppercase;
+	font-weight:600;
+	font-size:15px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.form_login fieldset{
+	border:1px solid #c1c1c1;
+	padding:15px;
+}
+.clear{
+	width:100%;
+	height:5px;
+}
+.form_login fieldset .item{
+	width:100%;
+	margin-bottom:10px;
+}
+.form_login fieldset .item label{
+	width:105px;
+	float:left;
+	display:block;
+	font-weight:600;
+	font-size:12px;
+}
+.form_login fieldset .item input{
+	width:193px;
+	height:22px;
+}
+.button{
+	text-align:right;
+	width:100%;
+	margin-top:20px;
+}
+.button button{
+	width: 70px;
+    height: 25px;
+    font-size: 12px;
+}
+.link{
+	margin-top:10px;
+	width:100%;
+	text-align:right;
+}
+.link a{
+	text-decoration:none;
+	color:#029ecb;
+	padding-left:5px;
+	padding-right:5px;
+}
+.link a.last{
+	padding-right:0px;
+}
+.link a:hover{
+	text-decoration:underline;
+}
+.form_login fieldset .item label.error{
+	width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: normal;
+    color: red;
+}
