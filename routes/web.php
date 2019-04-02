@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('auth.login');
-});
+Route::get('/', 'GoiNuocController@index')->name('goi-nuoc');
+Route::post('/goi-nuoc', 'GoiNuocController@store')->name('goi-nuoc-uong');
+Route::get('/danh-sach/{id}', 'GoiNuocController@orders')->name('danh-sach-don');
 
 Auth::routes();
 
